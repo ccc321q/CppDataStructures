@@ -45,7 +45,7 @@ int queue_item_count(Queue *q)
     return q->item_count;
 }
 
-// Push (insert) an item into the queue.
+// Push (insert) an item into the back of the queue.
 
 void queue_push(Queue *q, int data)
 {

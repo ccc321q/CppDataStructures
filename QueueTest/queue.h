@@ -34,7 +34,7 @@ bool queue_is_full(Queue *q);
 // Returns the number of items already pushed into the queue.
 int queue_item_count(Queue *q);
 
-// Push (insert) an item into the queue.
+// Push (insert) an item into the back of the queue.
 void queue_push(Queue *q, int data);
 
 // Removes and returns the item at the front of the queue. Returns 0 if queue
